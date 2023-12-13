@@ -1,14 +1,14 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="./inicio.html"><img id="tamano-logo" alt="Logo BD" src="./assets/logo-BD-texto.png"></a>
+    <a class="navbar-brand" routerLink="" routerLinkActive="active"><img id="tamano-logo" alt="Logo BD" src="./assets/logo-BD-texto.png"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./inicio.html">Inicio</a>
+          <a class="nav-link active" aria-current="page" routerLink="" routerLinkActive="active">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="catalogo_prueba.html">Catálogo</a>
@@ -18,7 +18,7 @@
             Plataformas
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="">PC</a></li>
+            <li><a class="dropdown-item" routerLink="/condiciones" routerLinkActive="active">PC</a></li>
             <li><a class="dropdown-item" href="">PlayStation</a></li>
             <li><a class="dropdown-item" href="">Xbox</a></li>
             <li><a class="dropdown-item" href="">Switch</a></li>
@@ -39,3 +39,4 @@
     </div>
   </div>
 </nav>
+<router-outlet></router-outlet>
