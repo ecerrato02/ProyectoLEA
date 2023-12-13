@@ -1,0 +1,555 @@
+body{
+  position: relative;
+  padding-bottom: 8em;
+  min-height: 100vh;
+}
+
+#tamano-logo{
+  width: 6em;
+}
+
+#lupa-busqueda{
+  width: 1em;
+  height: 1em;
+}
+
+.btn-outline-success{
+  width: 6em;
+  height: auto;
+}
+
+.btn-outline-success:hover{
+  transform: scale(1.08);
+}
+
+.inicio-sesion{
+  height: auto;
+  margin-left: .3em;
+  width: 12em;
+  border-radius: .3em;
+  border: 0.1em solid rgba(0, 51, 255, 0.45);
+  text-decoration: none;
+  color: black;
+  padding: .5em;
+}
+
+.inicio-sesion:hover{
+  background-color: rgba(0, 51, 255, 0.45);
+  color: white;
+  transform: scale(1.04);
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: auto;
+  background-color: white;
+  margin: 0;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.logo-carrito{
+  width: 8em;
+  height: 7em;
+}
+
+/*Formularios */
+
+#Nombre{
+  margin-bottom: 10px;
+  float: right;
+}
+#Apellidos{
+  margin-bottom: 10px;
+  float: right;
+}
+#Telefono{
+  margin-bottom: 10px;
+  float: right;
+}
+#Hombre{
+  margin-bottom: 10px;
+}
+#Mujer{
+  margin-bottom: 10px;
+}
+#Otros{
+  margin-bottom: 10px;
+}
+#Email{
+  margin-bottom: 10px;
+  float: right;
+}
+#contra{
+  margin-bottom: 10px;
+  float: right;
+}
+#notif{
+  margin-bottom: 10px;
+  float: right;
+}
+#asunto{
+  margin-bottom: 10px;
+  float: right;
+}
+
+/* Inicio */
+
+.filtros{
+  padding: .5em;
+  padding-bottom: .1em;
+  float: right;
+  width: 22%;
+  position: relative;
+  margin-top: 0;
+  margin-right: .5em;
+  background-color: rgba(211, 211, 211, 0.35);
+}
+#novrec {
+  font-weight: bold;
+  padding: .6em .3em;
+  font-family: sans-serif;
+}
+
+.enlaces-limpios{
+  text-decoration: none;
+  color: black;
+}
+
+.enlaces-limpios:hover{
+  font-weight: bold;
+  transform: scale(1.02);
+  color: rgba(0, 0, 0, 0.68);
+}
+
+/*carrito*/
+
+.carro-imagen{
+  height: 1.5em;
+}
+
+.carrito-boton{
+  border-radius: .3em;
+  height: auto;
+  border: 0.1em solid rgba(0, 51, 255, 0.45);
+  margin-left: .3em;
+  width: 4.3em;
+  padding-top: .2em;
+  padding-left: .5em;
+  padding-right: .2em;
+}
+
+.carrito-boton:hover{
+  transform: scale(1.05);
+  background-color: rgba(0, 51, 255, 0.45);
+}
+
+.separador{
+  height: 5em;
+  display: inline-block;
+  width: 100%;
+  background-color: rgba(141, 141, 141, 0.42);
+}
+
+.todos-productos{
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+.productos{
+  text-align: center;
+  width: 18em;
+  margin-left: 4.5em;
+  margin-bottom: 2em;
+  margin-top: 1.9em;
+  padding: 2em;
+  border-radius: .2em;
+}
+
+.iconos{
+  width: 1.5em;
+  height: auto;
+}
+
+.iconos:hover{
+  transform: scale(1.05);
+}
+
+.productos:hover{
+  transform: scale(1.03);
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.productos-enlaces{
+  color: black;
+  text-decoration: none;
+}
+
+.imagen-productos{
+  width: 100%;
+  height: auto;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+.boton-vermas{
+  margin-bottom: 3em;
+}
+
+
+#formulario{
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container{
+  margin-top: 3em;
+  position: relative;
+  max-width:430px ;
+  width: 100%;
+  background: #FFFF;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding-bottom: 1.5em;
+}
+
+.container .form{
+  padding: 30px;
+}
+.container .form .title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  color: #2f286a;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-left: 90px;
+}
+
+.form .title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 25px;
+}
+
+.form .input-field{
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.input-field input{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 0 35px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid transparent;
+}
+
+.input-field textarea{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid transparent;
+}
+
+.input-field input:is(:focus, :valid){
+  border-bottom-color: #2f286a ;
+}
+
+.input-field textarea:is(:focus, :valid){
+  border-bottom-color: #2f286a ;
+}
+
+.input-field i{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 20px;
+}
+
+.input-field input:is(:focus, :valid)~ i{
+  color: #72c8b4 ;
+}
+
+.input-field textarea:is(:focus, :valid)~ i{
+  color: #72c8b4 ;
+}
+
+.input-field i.icon{
+  left: 0;
+
+}
+.input-field i.showHidePw{
+  right: 0;
+}
+
+.form .checkbox-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content{
+  display: flex;
+  align-items: center;
+}
+.checkbox-content input{
+  margin: 0 8px -2px 4px;
+  accent-color:  #2f286a;
+}
+
+.form .text{
+  color: #2f286a;
+  font-size: 14px;
+}
+.form a.text{
+  color: #2f286a;
+  text-decoration: none;
+  font-size: 15px;
+}
+.form a:hover{
+  text-decoration: underline;
+}
+.form .button{
+  margin-top: 35px;
+}
+.form .button input{
+  border-radius: 4px;
+  color: #FFFF;
+  background: linear-gradient(100deg, #B3E1D6, #433D78);
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input:hover{
+  background: #95cb6e;
+}
+.form .login-signup{
+  margin-top: 30px;
+  text-align: center;
+}
+.condiciones{
+  margin: auto;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.divcond{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 75%;
+  background-color: rgba(240, 240, 240, 0.27);
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align:justify ;
+}
+
+.condlist{
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 0.3em;
+}
+
+.descripcion{
+  display: inline-block;
+}
+
+.precio{
+  float: right;
+  margin-right: .3em;
+  font-weight: bold;
+  margin-top: -1em;
+  color: green;
+}
+
+.precio-anterior{
+  float: right;
+  margin-right: 2em;
+  font-weight: bold;
+  margin-top: -1em;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.porcentaje-descuento{
+  padding: .4em;
+  border-radius: .8em;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 11em;
+  z-index: 1;
+}
+
+#logo-inicio{
+  margin-left: 20%;
+  margin-bottom: 6em;
+  width: 60%;
+}
+
+#imagen-inicio{
+  background-color: rgba(211, 211, 211, 0.3);
+}
+
+.inicio-contenido{
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: justify;
+}
+
+.titulos-inicio{
+  font-size: xx-large;
+}
+
+.titulo-centrado{
+  text-align: center;
+}
+
+.separar-inicio{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-top: 0.1em solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 3em;
+  margin-top: 2em;
+}
+
+.faq{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.faq:hover{
+  transform: scale(1.02);
+}
+
+.logo-footer{
+  width: 3em;
+}
+
+.enlaces-footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.quienes-somos{
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fotos-ceo{
+  width: 8em;
+  border-radius: 50%;
+  border: 0.01em solid black;
+}
+
+#edu-nievas{
+  text-align: center;
+}
+
+#eduardo{
+  text-align: center;
+}
+
+#luis{
+  text-align: center;
+}
+
+.nombre-ceo{
+  margin-top: 1.4em;
+  font-weight: bold;
+}
+
+.cargo{
+  margin-top: -0.5em;
+  font-weight: bold;
+}
+
+.fondo-claro{
+  background-color: black;
+  color: white;
+}
+
+.fondo-oscuro{
+  background-color: grey;
+}
+
+.restar-producto{
+  background-color: red;
+  font-weight: bold;
+  float: left;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.numero-productos{
+  float: left;
+  width: 3em;
+}
+
+.sumar-producto{
+  background-color: green;
+  font-weight: bold;
+  float: left;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.centrar-sumarproducto{
+  margin-left: 25%;
+  margin-top: 0.8em;
+  display: none;
+}
+
+.productos:hover .centrar-sumarproducto {
+  display: block;
+}
+
+.centrar-sumarproducto-descuento{
+  margin-left: 2%;
+  display: none;
+}
+
+.productos:hover .centrar-sumarproducto-descuento{
+  display: inline-block;
+}
